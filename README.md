@@ -21,16 +21,16 @@
 <br>
 
 #### 输入以下内容
-> [Unit]
+> [Unit]<br>
 > Description=LFDevInfo System Monitor for orangepi
 > After=network.target
 > 
-> [Service]
+> [Service]<br>
 > ExecStart=/usr/local/bin/LFDevInfo
 > Restart=always
 > User=root
 > 
-> [Install]
+> [Install]<br>
 > WantedBy=default.target
 
 ### 命令
